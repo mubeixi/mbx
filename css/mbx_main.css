@@ -1,0 +1,333 @@
+*{
+	margin: 0px ;
+	padding: 0px ; 
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	outline: none;
+}
+.w111{
+	width: 1360px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bannerImg{
+	position: absolute;
+    display: none;
+    top: 50%;
+    margin-top: -22.5px;
+    width: 24px;
+    height: 45px;
+	background-color: red;
+    background: url(//res.darryring.com/webimg/index/ico-bannerBtn.png) no-repeat;
+	z-index: 5;
+}
+#bannerLeft{
+	left: 50px;
+}
+#bannerRight{
+	right: 50px;
+    background-position: -25px 0;
+}
+
+.loveSearch{
+	width: 1360px;
+	height: 462px;
+	margin-top: 42px;
+    overflow: hidden;
+}
+.loveSearch_left{
+	width: 628px;
+    height: 100%;
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+.loveSearch_left img{
+	z-index: 1;
+	position: relative;
+}
+.loveSearch_play{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+	z-index: 5;
+	background: url(../img/main/ico-play.png) no-repeat center center;
+}
+.loveSearch_right{
+	position: relative;
+    background: #f5f1ee;
+    width: 732px;
+    height: 462px;
+    text-align: center;
+	float: left;
+	background: #f5f1ee;
+}
+.loveSearch_right img{
+	margin-top: 54px;
+}
+#cart2::-webkit-input-placeholder{
+	 color:#fff ;
+	/* placeholer  字体颜色 */
+ }
+.loveSearchWord{
+	margin-top: 30px;
+    font-size: 18px;
+    color: #493428;
+    line-height: 40px;
+}
+.line{
+	border-bottom: 2px solid #8f7e74;
+    width: 33px;
+    margin: 10px auto 0;
+}
+.inputCart{
+	 width: 280px;
+	 height: 45px;
+    top: 340px;
+    right: 50%;
+	position: absolute;
+    margin-right: -140px;
+	background: #8b766c;
+}
+.inputCart #cart2{
+	padding: 15px 0;
+    color: #fff;
+	width: 222px;
+    text-align: center;
+	background: #8b766c;
+	border: 0px;
+}
+
+.myCartS{
+	background: url(../img/main/ico-wseach.png)  no-repeat right center;
+	display: block;
+	height: 23px;
+	width: 22px;
+	position: relative;
+	top: -34px;
+    left: 243px;
+}
+#videoPlay{
+	display: none;
+    z-index: 9;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    margin-left: -600px;
+    width: 1200px;
+}
+#closePlay{
+	background: url(../img/main/sp_close.jpg) no-repeat;
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 22px;
+    top: -40px;
+    cursor: pointer;
+}
+
+.middleMBX{
+	height: 986px;
+	margin-top: 42px;
+	position: relative;
+}
+.f1{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.middleMBXLeft{
+	width: 694px;
+	position: relative;
+	overflow: hidden;
+}
+
+.middleMBXRight{
+	position: relative;
+	width: 650px;
+	overflow: hidden;
+}
+.middle1{
+	margin-bottom: 16px;
+}
+.middleP{
+	color: #333;
+    font-size: 18px;
+    line-height: 28px;
+}
+#middleP1{
+	position: absolute;
+	top: 555px;
+	left: 40px;
+}
+#middleP2{
+	position: absolute;
+	bottom: 45px;
+	right: 40px;
+}
+#middleP3{
+	position: absolute;
+	top: 325px;
+	right: 40px;
+}
+#middleP4{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+}
+#m1{
+	height: 622px;
+	width: 694px;
+	overflow: hidden;
+}
+#middleM1:hover{
+	 transform: scale(1.2);
+	 transition: 0.5s;
+	 /* 动画transform */
+}
+#m2{
+	height: 330px;
+	width: 694px;
+	overflow: hidden;
+}
+#middleM2:hover{
+	 transform: scale(1.2);
+	 transition: 0.5s;
+}
+#m3{
+	height: 387px;
+	width: 650px;
+	overflow: hidden;
+}
+#middleM3:hover{
+	 transform: scale(1.2);
+	 transition: 0.5s;
+}
+#m4{
+	height: 567px;
+	width: 650px;
+	overflow: hidden;
+}
+#middleM4:hover{
+	 transform: scale(1.2);
+	 transition: 0.5s;
+}
+
+
+
+.cityView{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.cityViewLeft{
+	width: 809px;
+	float: left;
+	position: relative;
+}
+.cityViewRight{
+	float: right;
+	height: 500px;
+	width: 551px;
+	position: relative;
+	text-align: center;
+	background-color:#ded8d2;
+}
+.cityViewRight img{
+	margin-top: 80px;
+}
+.cityViewInput{
+		text-align: left;
+		background: #8b766c;
+		width: 331px;
+		margin: 54px auto 0;
+		padding: 6px 14px;
+		position: relative;
+}
+.cityViewInput span{
+	height: 30px;
+	display: inline-block;
+    width: 116px;
+    text-align: center;
+    color: #ded8d2;
+    cursor: pointer;
+	padding-top: 1px;
+}
+.cityViewInput input{
+	width: 160px;
+    color: #ded8d2;
+    height: 30px;
+    padding-left: 20px;
+    border: none;
+    line-height: 30px;
+	background: #8b766c;
+    background: url(../img/ico-gps.png) no-repeat left center;
+	position: absolute;
+	top: 6px;
+	left: 103px;
+}
+#cityViewInput::-webkit-input-placeholder{
+	 color:#d1c9c2 ;
+	 font-size: 15px;
+	/* placeholer  字体颜色 */
+ }
+.cityViewButton{
+	background: url(../img/main/ico-wseach.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	display: block;
+	position: absolute;
+	top:9px;
+	right: 43px;
+}
+.cityViewA{
+	display: block;
+    width: 360px;
+    height: 44px;
+    background: #eee8e2;
+    font-size: 14px;
+    color: #8b766c;
+    text-align: center;
+    line-height: 44px;
+    margin: 29px auto 0;
+}
+.indexAdv{
+	width: 1360px;
+	height: 396px;
+	margin-top: 16px;
+	position: relative;
+	overflow: hidden;
+}
+.indexAdv1{
+	margin-left: 16px;
+	float: left;
+	position: relative;
+}
+.indexAdv1:first-child{
+	margin-left: 0px;
+}
+.indexP{
+	position: absolute;
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+}
+
+
+
+

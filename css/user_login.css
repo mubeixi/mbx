@@ -1,0 +1,284 @@
+*{
+    margin: 0px ;
+	padding: 0px; 
+}
+.mbx{
+	width: 1360px;
+	margin: 0 auto;
+}
+input{
+	outline: none;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.nav{
+	width: 1360px;
+	height: 82px;
+	margin: 0px auto;
+	position: relative;
+	border-bottom: 1px solid #666;
+}
+.mbx_logo{
+	float: left;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	margin: 0px;
+}
+#logo{
+	width:70px;
+}
+.mbx_member{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	width: 302px;
+	height: 50px;
+}
+.mbx_logoRight{
+	margin-top: 30px;
+	height: 20px ;
+	
+}
+.mbx_member_left{
+	float: left;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: #8d8d8d;
+}
+.mbx_member_left a{
+	color: #8D8D8D;
+	padding: 0px 14px;
+	line-height: 20px;
+	text-decoration:none
+}
+.mbx_member_left .reg{
+	background-color: #8B766C;
+	color: white;
+	display: inline-block;
+}
+.mbx_member_left i{
+	padding:0px 14px;
+	font-style:normal;//去掉i标签中的斜体
+}
+.mbx_member_left i img{
+	vertical-align: middle;
+}
+.help-right span{
+	background-image: url(../img/bread_right.png) ;
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+.mbx_center{
+	width: 1360px;
+	height: 565px;
+	position: relative;
+}
+.mbx_login  h3{
+	color: #D8A25C;
+	font-family: "microsoft yahei";
+    text-align: center;
+    line-height: 38px;
+	font-weight:normal;//去掉加粗
+}
+
+
+
+
+.mbx_login{
+	position: absolute;
+	z-index: 2;
+    top: 54px;
+    right: 108px;
+    width: 312px;
+    padding-bottom: 38px;
+    box-shadow: 0 0 8px #ccc;
+	background-color: #FEFEFE;
+}
+#login_msg{
+	display: block;
+	margin-left: 30px;
+	width: 228px;
+	position: absolute;
+	top:30px;
+    color: #666;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.mbx_login h3{
+	height: 38px;
+    font-size: 18px;
+    color: #9b745c;
+    font-family: "microsoft yahei";
+    text-align: center;
+    line-height: 38px;
+    margin-top: 14px;
+}
+.uname{
+	width: 254px;
+}
+.upwd{
+	width: 254px;
+}
+.actionPwdDiv{
+	width: 254px;
+	height: 40px;
+}
+.uname input{
+	background: url(../img/ico-uinput.png) no-repeat 12px 12px;
+	background-color: #fff;
+	display: block;
+    width: 214px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    margin-top: 12px;
+	margin-left: 25px;
+    color: #666;
+    line-height: 38px;
+    padding-left: 38px;
+}
+.upwd input{
+	background: url(../img/ico-uinput.png) no-repeat 12px -24px;
+	background-color: #fff;
+	display: block;
+	width: 214px;
+	height: 36px;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-left: 25px;
+	color: #666;
+	line-height: 38px;
+	padding-left: 38px;
+}
+.actionPwd{
+	margin-top: 8px;
+}
+
+
+.actionPwdDiv p{
+	 align:center;
+	 display: block;
+	 padding-left: 38px;
+ }
+ .actionPwd a{
+	 float: right;
+	 font-size: 12px;
+	 position: relative;
+	 left: 25px;
+	 top: 3px;
+	 color: #888888;
+ }
+ .actionPwd input{
+	 width: 12px;
+	 height: 12px;
+	 position: relative;
+	 top: 2px;
+ }
+ .actionPwd label{
+	  font-size: 12px;
+	  position: relative;
+	  top: -1px;
+ }
+ 
+ .actionSame{
+	 text-align: center;
+	 font-size: 12px;
+	 margin-top: 6px;
+ }
+ .actionSame a{
+	 color: #BDA393;
+ }
+ 
+ .login{
+	 width: 254px;
+	 text-align: center;
+	 margin-top: 15px;
+	 margin-left: 25px;
+ }
+ .login button{
+	 width: 248px;
+	 height: 40px;
+	 font-size: 14px;
+	 background-color: white;
+	 border: 1px solid #8b766c;
+     color: #8b766c;
+ }
+ 
+ .mbx_other{
+	/*position: absolute;
+	top: 320px;
+	right: -10px;*/
+    width: 312px;
+    height: 45px;
+    background: #fefefe;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+	/*padding-bottom: 70px;
+	box-shadow: 0 0 8px #ccc;*/
+ }
+ .mbx_other h4{
+	display: block;
+    margin-block-start: 4em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+    color: #9b745c;
+    font-size: 12px;
+    text-align: center;
+	background: url(../img/otherLoginHr.png)  no-repeat center center;
+ }
+
+ .mbx_other a{
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin: 0px 8px 0;
+    background: url(../img/ico-otherLogin.png) no-repeat;
+    vertical-align: middle;
+ }
+ .mbx_other .qq1{
+	 background-position: 0 0;
+	  
+ }
+.mbx_other .wx1{
+	 background-position: -42px 0;
+	  
+ }
+ 
+ .mbx_other .wb1{
+ 	 background-position: -87px 0;
+ 	  
+  }
+ .mbx_other .zfb1{
+  	 background-position: -130px 0;
+  	  
+   }
+   
+ .loginBg{
+	position: absolute;
+    z-index: 0;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 565px;
+    overflow: hidden;
+ }
+ .loginBg img{
+	position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ }

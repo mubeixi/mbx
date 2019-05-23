@@ -1,0 +1,203 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.contentList{
+	width: 1360px;
+	margin: 0 auto;
+	position: relative;
+}
+.contentList div:first-child ul li a img{
+	height: 540px;
+}
+.f1{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.breadS::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.bread{
+	font-size: 0px;
+    color: #333;
+    margin-left: 9px;
+    height: 70px;
+    line-height: 70px;
+	margin-top: 16px;
+}
+.bread a{
+	font-size: 13px;
+    color: #333;
+    padding-left: 6px;
+}
+.bread+div{
+	margin-top: 36px;
+	position: relative;
+}
+.bread+div input{
+	border: 1px solid #d7d7d7;
+    width: 235px;
+    height: 30px;
+    line-height: 30px;
+	padding-left: 15px;
+}
+.bread+div a{
+	font-size: 14px;
+    color: #666;
+    margin: 0 35px 0 17px;
+    vertical-align: middle;
+}
+.bread+div i{
+	background: url(../img/list/search.png) no-repeat center center;
+	position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1px;
+    right: 89px;
+}
+.highSearch{
+	margin-bottom: 10px;
+	position: relative;
+}
+.highSearch a:first-child{
+	position: absolute;
+	right: 32px;
+	top: 0px;
+	font-size: 14px;
+    color: #666;
+}
+
+.highSearch ul li{
+	height: 34px;
+}
+.highSearch ul li span{
+	cursor: pointer;
+    margin-left: 15px;
+    margin-right: 3px;
+    font-size: 14px;
+    color: #666;
+    background: url(../img/list/bottom.png) no-repeat center right;
+    padding-right: 18px;
+}
+.searchSame{
+	display: none;
+	width: 1348px;
+	position: absolute;
+	top: 34px;
+	left: 0px;
+	min-height: 215px;
+    color: #666;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    background: #fff;
+    padding-left: 12px;
+    padding-top: 36px;
+}
+.searchSame a{
+	width: 220px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    color: #666;
+}
+.highSearch ul .active .searchSame{
+	display: block;
+}
+#priceSearch{
+	margin-top: 30px;
+}
+#priceSearch input{
+	    width: 174px;
+    padding: 9px 12px;
+    font-size: 14px;
+    border: none;
+    background: #f7f7f7;
+}
+#priceSearch button{
+	background: #a98f83;
+    font-size: 14px;
+    color: #fff;
+    width: 90px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.highSearch::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.cort{
+	background: #f4f2f3;
+    padding-bottom: 28px;
+    overflow: hidden;
+	display: flex;
+}
+.cort ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+.cort ul li{
+	width: 420px;
+	height: 490px;
+	background: #fff;
+	margin-top: 25px;
+}
+.cort ul li a img{
+	width: 320px;
+	height: 320px;
+}
+
+.cort ul li div p:first-child{
+	margin-bottom: 18px;
+	text-align: center;
+    color: #8b766c;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cort ul li div p:nth-child(2){
+	font-size: 16px;
+	line-height: 26px;
+	color: #333;
+	margin-bottom: 6px;
+}
+.cort ul li div a{
+	display: inline-block;
+	width: 115px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+	border: 1px solid #a98f83;
+	color: #a98f83;
+	background: #fff;
+}
+.cort .nowBuy{
+	color: #fff;
+    background: #a98f83;
+
+}
+.nowBuy:hover{
+	background: #8b766c;
+	color: white;
+}
+.nowSc:hover{
+	color: #000;
+}

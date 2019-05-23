@@ -1,0 +1,149 @@
+.w111{
+	width: 1360px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+.mbx_footer{
+	background-color: red;
+	position: relative;
+	padding-top: 76px;
+    background-color: #fff;
+
+}
+
+.mbx_footerTop{
+	background: url(../img/footer_rp.png);
+	background-repeat: repeat-x;
+	height: 16px;
+	margin: 0 auto;
+}
+.footer1{
+	text-align: center;
+	padding: 30px 0;
+	height: 152px;
+	width: 1000px;
+	margin-left: 180px;
+}
+.footer1 li{
+	text-align: center;
+	float: left;
+	list-style: none;
+	width: 70px;
+	margin: 0 36px;
+}
+
+.mbx_footer li  i{
+	display: inline-block;
+    width: 60px;
+    height: 60px;
+	background-image: url(../img/icon_footer.png);
+    background-repeat: no-repeat;
+}
+.icon1{
+	background: 0px 0px;
+}
+.icon2{
+	background: -60px 0px;
+}
+.icon3{
+	background: -120px 0px;
+}
+
+.icon4{
+	background: -180px 0px;
+}
+.icon5{
+	background: -240px 0px;
+}
+.icon6{
+	background: -300px 0px;
+}
+.icon7{
+	background: -360px 0px;
+}
+.mbx_footer span{
+	font-size: 14px;
+	color: #666666;
+}
+.mbx_footer a{
+	text-decoration:none;
+}
+
+.mbx_footerBootom{
+	background: #f8f8f8;
+    padding-top: 56px;
+	width: 1360px;
+	height: 410px;
+	margin: 0 auto;
+}
+
+.w100{
+	width: 1000px;
+	height: 100px;
+	margin-left: 180px;
+}
+.w100 ul{
+	overflow: hidden;
+    font-size: 12px;
+    line-height: 22px;
+	text-align: center;
+	width: 1000px;
+	
+}
+.w100 h4{
+	font-size: 14px;
+}
+.w100 ul li{
+	float: left;
+    border-left: 2px solid #dbdbdb;
+    padding: 6px 40px;
+	text-align: center;
+	float: left;
+	list-style: none;
+	width: 70px;
+	
+}
+.w100 ul li a{
+	color: #666;
+    display: block;
+}
+
+.w100 li:first-child{
+	border: none;
+}
+.lastDiv{
+	text-align: center;
+	width: 1000px;
+	height: 106px;
+	margin-top: 28px;
+
+}
+.lastDiv h3{
+	font-size: 14px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    color: #666;
+}
+.lastDiv p{
+	font-size: 12px;
+    margin-bottom: 18px;
+    color: #666;
+}
+.wxLast{
+	background: url(../img/share_focus.png) no-repeat ;
+	width: 44px;
+    height: 44px;
+    margin: 0 15px;
+	display: inline-block;
+}
+
+.xlLast{
+	background: url(../img/share_focus.png) no-repeat ;
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	background-position: -44px 0;
+}
